@@ -1,6 +1,6 @@
 {
   "name": "node-password",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/password.js",
   "description": "Generate strong passwords",
   "homepage": "https://github.com/pettereek/node-password",
