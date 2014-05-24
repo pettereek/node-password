@@ -1,0 +1,35 @@
+{
+  "name": "node-password",
+  "version": "1.0.0",
+  "main": "lib/password.js",
+  "description": "Generate strong passwords",
+  "homepage": "https://github.com/pettereek/node-password",
+  "bugs": "https://github.com/pettereek/node-password/issues",
+  "author": {
+    "name": "Petter Eek",
+    "email": "petter@pettereek.se"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pettereek/node-password"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": ["password", "generator"],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "underscore": "^1.6.0"
+  }
+}
