@@ -11,7 +11,7 @@ $ npm install node-password
 ## Usage
 
 ```js
-var Password = require('node-password');
+var Password = require('node-password').Password;
 var pw = new Password();
 // pw.toString() => 'aJi*2&4nLk_0l!k'
 ```
@@ -21,7 +21,7 @@ var pw = new Password();
 You can pass a configuration option to the ```Password()``` contstuctor.
 
 ```js
-var Password = require('node-password');
+var Password = require('node-password').Password;
 var options = {
   length: 5,
   letters: true,
@@ -36,7 +36,7 @@ var pw = new Password(options);
 Generates a new password.
 
 ```js
-var Password = require('node-password');
+var Password = require('node-password').Password;
 var pw = new Password();
 // pw.toString() => 'aJi*2&4nLk_0l!k'
 pw.regenerate();
@@ -48,7 +48,7 @@ pw.regenerate();
 Return an obfuscated string of ```s``` or ```*```.
 
 ```js
-var Password = require('node-password');
+var Password = require('node-password').Password;
 var pw = new Password();
 // pw.toSafeString() => '***************'
 ```
